@@ -1,0 +1,64 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Montserrat:wght@700&family=Poppins&display=swap');
+body {
+    font-family: 'Martel Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.task input {
+    margin-right: 10px;
+}
+
+#newTask {
+    margin-top: 20px;
+    display: flex;
+}
+
+#newTask input {
+    flex: 1;
+    padding: 5px;
+
+}
+
+#addTask {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', Times, serif;
+    font-size: 25px ; 
+    
+}
+span{
+    color:red;
+}
